@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Online Poll</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="poll-box">
+
+        <h1>🗳️ My Online Poll</h1>
+
+        <p class="question">
+            Vote for your favorite Bigg Boss contestant!:
+        </p>
+
+        <label class="option">
+            <input type="radio" name="candidate" value="Qazi Touqeer">
+            Qazi Touqeer
+        </label>
+
+        <label class="option">
+            <input type="radio" name="candidate" value="Arishfa Khan">
+            Arishfa Khan
+        </label>
+
+        <label class="option">
+            <input type="radio" name="candidate" value="Kanika Mann">
+            Kanika Mann
+        </label>
+
+        <button id="voteBtn">
+            Submit Vote
+        </button>
+
+        <p id="message"></p>
+
+        <hr>
+
+        <h2>📊 Results</h2>
+
+        <div id="results">
+            Results loading...
+        </div>
+
+    </div>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
